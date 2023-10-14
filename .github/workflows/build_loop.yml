@@ -48,6 +48,19 @@ jobs:
 
           # the final customization listed above CANNOT have a continuation character "\"
           # more customizations can be pasted after this line
+
+                # Customize Loop: Download and apply patches
+      - name: Customize Loop
+        run: |
+
+          # For each patch, edit comment line (keep the #) then update curl (and remove the #)
+
+          # Submodule Loop patches:
+          # Module: File: Norsk oversettelse
+          curl https://github.com/SanderRemote20/OmniBLE/commit/55ddc78142126991aad2d5ae5ce3b9da60e63c12.patch | git apply -v --directory=Module
+
+          # Submodule xxxxx patches: Follow prototype above
+
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
