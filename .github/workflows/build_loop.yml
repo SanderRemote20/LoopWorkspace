@@ -57,7 +57,7 @@ jobs:
 
           # Submodule Loop patches:
           # Loop: File: Norsk oversettelse
-          curl https://github.com/SanderRemote20/OmniBLE/commit/55ddc78142126991aad2d5ae5ce3b9da60e63c12.patch | git apply -v --directory=SanderRemote20/OmniBLE
+          curl https://github.com/SanderRemote20/OmniBLE/commit/55ddc78142126991aad2d5ae5ce3b9da60e63c12.patch | git apply -v --directory=OmniBLE
 
           # Submodule xxxxx patches: Follow prototype above
 
