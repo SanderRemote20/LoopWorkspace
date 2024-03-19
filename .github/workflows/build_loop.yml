@@ -55,8 +55,8 @@ jobs:
 
           # For each patch, edit comment line (keep the #) then update curl (and remove the #)
 
-# Module: File: change lollipop from 30 to 60 minutes
-curl https://github.com/SanderRemote20/Loop/commit/12bbc4ea00edea03a078450c1fb1413fd3542648.patch | git apply -v --directory=Loop
+          # Module: File: change lollipop from 30 to 60 minutes
+          curl https://github.com/SanderRemote20/Loop/commit/12bbc4ea00edea03a078450c1fb1413fd3542648.patch | git apply -v --directory=Loop
 
           # Submodule xxxxx patches: Follow prototype above
 
