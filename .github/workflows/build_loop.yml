@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
   
   ## Remove the "#" sign from the beginning of the line below to get automated builds on push (code changes in your repository)
-  #push:
+  push:
 
   ## Remove the "#" sign from the beginning of the two lines below to get automated builds every two months
-  #schedule:
-    #- cron: '0 17 1 */2 *' # Runs at 17:00 UTC on the 1st in Jan, Mar, May, Jul, Sep and Nov.
+  schedule:
+    - cron: '0 17 1 */2 *' # Runs at 17:00 UTC on the 1st in Jan, Mar, May, Jul, Sep and Nov.
 
 jobs:
   secrets:
@@ -55,9 +55,8 @@ jobs:
 
           # For each patch, edit comment line (keep the #) then update curl (and remove the #)
 
-          # Submodule Loop patches:
-          # Loop: File: Norsk oversettelse
-          curl https://github.com/SanderRemote20/OmniBLE/commit/55ddc78142126991aad2d5ae5ce3b9da60e63c12.patch | git apply -v --directory=OmniBLE
+# Module: File: change lollipop from 30 to 60 minutes
+curl https://github.com/SanderRemote20/Loop/commit/12bbc4ea00edea03a078450c1fb1413fd3542648.patch | git apply -v --directory=Loop
 
           # Submodule xxxxx patches: Follow prototype above
 
