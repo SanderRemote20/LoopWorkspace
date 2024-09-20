@@ -280,6 +280,12 @@ jobs:
           # Module: File: oversettelse
           curl https://github.com/SanderRemote20/Loop/commit/ca180ce3051785ce5d2d1eb3e7cece8a956eb8a4.patch | git apply -v --directory=Loop
 
+          # Module: File: oversettelse
+          curl https://github.com/SanderRemote20/Loop/commit/0ce787d11deda0d0a47f5eb90cb785d58919f9e7.patch | git apply -v --directory=Loop
+
+          # Module: File: oversettelse
+          curl https://github.com/SanderRemote20/Loop/commit/f335b677b71ef5426be370693267ea323b9fca01.patch | git apply -v --directory=Loop
+
           # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
           #   the line following a "\" should not be blank
