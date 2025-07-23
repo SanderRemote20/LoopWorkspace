@@ -285,9 +285,6 @@ jobs:
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
           # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/OmniBLE/commit/10a36c7218140ac2bba1fbb5c0f99b510531fe9b.patch | git apply -v --directory=OmniBLE
-
-          # Module: File: oversettelse
           curl https://github.com/SanderRemote20/Loop/commit/24acde61733a067bf6a27d81c6418ae56e2699bf.patch | git apply -v --directory=Loop
 
           # Module: File: oversettelse
