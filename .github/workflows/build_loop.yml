@@ -285,6 +285,9 @@ jobs:
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
           # Module: File: oversettelse
+          curl https://github.com/SanderRemote20/Loop/commit/24acde61733a067bf6a27d81c6418ae56e2699bf.patch | git apply -v --directory=Loop
+
+          # Module: File: oversettelse
           curl https://github.com/SanderRemote20/Loop/commit/77a5d442ad49adc53cdc57eab52df4b062a3a5bd.patch | git apply -v --directory=Loop
 
           # Module: File: oversettelse
