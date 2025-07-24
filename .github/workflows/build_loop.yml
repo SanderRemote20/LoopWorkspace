@@ -314,6 +314,9 @@ jobs:
           # Module: File: oversettelse
           curl https://github.com/SanderRemote20/Loop/commit/58d55250615debfb5821b5c84b5af56767f89985.patch | git apply -v --directory=Loop
 
+          # Module: File: oversettelse
+          curl https://github.com/SanderRemote20/OmniBLE/commit/10a36c7218140ac2bba1fbb5c0f99b510531fe9b.patch | git apply -v --directory=OmniBLE
+
           # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
           #   the line following a "\" should not be blank
