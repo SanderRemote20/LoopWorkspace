@@ -283,41 +283,8 @@ jobs:
           # Add patches for customization of additional submodules by following the templates above, 
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
-          # Adding comments (#) may be useful to easily tell the individual patches apart.
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/24acde61733a067bf6a27d81c6418ae56e2699bf.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/77a5d442ad49adc53cdc57eab52df4b062a3a5bd.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/ca180ce3051785ce5d2d1eb3e7cece8a956eb8a4.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/0ce787d11deda0d0a47f5eb90cb785d58919f9e7.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/f335b677b71ef5426be370693267ea323b9fca01.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/4c893c84614cf5486156a93462550d8d2cc42b04.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/24c8a909bd4fd6f0dd288734507b5bead0ff1d32.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/99b99e259ba0c5cd3400d3d3882ada4096048648.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/82e5a732063af3ce34cc6e537121edda6dc1b692.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/Loop/commit/58d55250615debfb5821b5c84b5af56767f89985.patch | git apply -v --directory=Loop
-
-          # Module: File: oversettelse
-          curl https://github.com/SanderRemote20/OmniBLE/commit/10a36c7218140ac2bba1fbb5c0f99b510531fe9b.patch | git apply -v --directory=OmniBLE
-
+          # Adding comments (#) may be useful to easily tell the individual patches
+          
           # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
           #   the line following a "\" should not be blank
