@@ -216,6 +216,7 @@ jobs:
           now_line \
           watch_title \
           meal_days \
+          remote_window \
           profiles
 
           # the final customization listed above CANNOT have a continuation character
