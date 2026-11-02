@@ -216,7 +216,9 @@ jobs:
           now_line \
           watch_title \
           meal_days \
+          cgm_sensor_notes \
           remote_window \
+          remote_carb_edit \
           profiles
 
           # the final customization listed above CANNOT have a continuation character
